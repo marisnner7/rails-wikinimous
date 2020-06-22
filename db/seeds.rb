@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 puts "Creating 10 articles..."
-100.times do
+10.times do
   article = Article.create!(
   title: Faker::App.name,
   content: Faker::BossaNova.song
