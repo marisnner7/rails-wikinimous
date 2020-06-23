@@ -9,8 +9,8 @@
 puts "Creating 10 articles..."
 10.times do
   article = Article.create!(
-  title: Faker::App.name,
-  content: Faker::BossaNova.song
+  title: Faker::Company.buzzword,
+  content: Faker::GreekPhilosophers.quote
   )
 end
 
